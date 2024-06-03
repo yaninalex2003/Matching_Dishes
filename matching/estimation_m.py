@@ -7,7 +7,7 @@ def estimate_m(M):
 
         diffs = np.abs(np.diff(lambda_i_list))
 
-        M = 6
+        M = 10
         diffs=diffs[M:]
         m_est = np.argmax(diffs) 
 
